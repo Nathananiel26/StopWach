@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/pexels-aphiwat-chuangchoem-359989.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 40%;
+    height: 250px;
+    background-color: white;
+    border-radius:  30px;
+
+}
+
+#timer{
+    width: 100%;
+    font-size: 75px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0px 10px;
+    border: none;
+    font-size: 40px;
+
+}
+
+button i{
+    padding: 10px;
+    color: white;
+    width: 60px;
+}
+
+#play{
+    background-color: green;
+}
+
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
